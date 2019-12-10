@@ -7,7 +7,7 @@ class Todo {
 
         this.db = new dbModel()
         
-        await this.db.readDatabase()
+        await this.db.ReadDatabase()
 
         let tododatas = this.db.todoModels
 
@@ -26,21 +26,21 @@ class Todo {
         return this.db.todoModels
     }
 
-    async AddTodoData(text){
+    async AddTodoData(data){
         this.db = new dbModel()
 
-        await this.db.AddToDatabase(text.context)
+        await this.db.AddToDatabase(data.context)
 
         return this.db.todoModel
     }
 
-    async DeleteTodoData(id){
+    async DeleteTodoData(data){
         this.db = new dbModel()
 
-        await this.db.DeleteFromDatabase(id.id)
+        await this.db.DeleteFromDatabase(data.id)
 
         if (this.db.deleteStatus) {
-            return 'Document id ',id,' successfully deleted'
+            return 'Document id ' + data.id + ' successfully deleted'
         } else {
             return 'Error Delete document'
         }

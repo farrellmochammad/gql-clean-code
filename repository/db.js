@@ -63,11 +63,8 @@ class Database {
     }
 
     async DeleteFromDatabase(id){
-      await this.DB.collection('todo').doc(id).delete().then(function() {
+      await this.DB.collection('todo').doc(id).delete().then(ref => {
           this.deleteStatus = true
-      }).catch(function() {
-          console.log('kesini ?')
-          this.deleteStatus = false
       });
     }
 
