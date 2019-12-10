@@ -109,7 +109,7 @@ Please read documentation at [GraphQL](https://graphql.org/) to make you underst
 ## Support 
 
 If you want to implement my code or want to fix or improve. Maybe if i am doing wrong in my code, i am open for discussion. I am still learning NodeJS and GraphQL.
-Also if you need help, email me at farrellmochammad@gmail
+Also if you need help, email me at farrellmochammad@gmail.com
 
 
 
