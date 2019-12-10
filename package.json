@@ -1,0 +1,17 @@
+{
+  "name": "gql-cleancode-server",
+  "version": "1.0.0",
+  "description": "A simple to do list code with clean code architecture and graphQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Farrell Mochammad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "firebase-admin": "^8.8.0",
+    "graphql": "^14.5.8"
+  }
+}
