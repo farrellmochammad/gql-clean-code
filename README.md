@@ -1,5 +1,7 @@
 # GraphQL + Clean Code + Firestore
 
+![wallpaper](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/github-assets/clean-code-wallpaper.PNG)
+
 This project is implement graphQL in node js clean code architecture and using firestore for data store.
 
 ## Getting Started
