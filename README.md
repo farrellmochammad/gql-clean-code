@@ -40,7 +40,7 @@ Make sure port 4000 in your machine is open.
 
 After you run server successfully, open http://localhost:4000/graphql in your web browser and you will see : 
 
-![First /graphql](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/clean-code-1.png)
+![First](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/clean-code-1.PNG)
 
 
 ## Important Notes
