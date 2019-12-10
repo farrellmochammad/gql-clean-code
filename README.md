@@ -4,7 +4,7 @@ This project is implement graphQL in node js clean code architecture and using f
 
 ## Getting Started
 
-* Before initialize project please install NodeJS. NodeJS can be found in [here] (https://nodejs.org/en/download)
+* Before initialize project please install NodeJS. NodeJS can be found in [here](https://nodejs.org/en/download)
 * Also make sure you know about [firestore](https://firebase.google.com/docs/firestore) in firebase
 
 ## Pre-requisites 
@@ -40,10 +40,76 @@ Make sure port 4000 in your machine is open.
 
 After you run server successfully, open http://localhost:4000/graphql in your web browser and you will see : 
 
-![First](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/clean-code-1.PNG)
+![article1](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/clean-code-1.PNG)
 
 
 ## Important Notes
 
 Please make sure that you have file 'serviceAccountKey.json' and add it to repository package. This code will not work if these file are not in repository package. 
+
+## GraphQL learn  
+
+Here i have todo class in model package and Todo class. 
+
+```
+class Todo {
+    constructor(id,context){
+      this.id = id
+      this.context = context;
+    }
+    get Id() {
+      return this.id;
+    }
+    set Id(id) {
+      this.id = id;
+    }
+
+    get Context() {
+        return this.context;
+    }
+
+    set Context(context) {
+        this.context = context;
+    }
+      
+    toString() {
+      const output = {
+        Id: this.id,
+        context: this.context,
+      };
+  
+      return JSON.stringify(output, null, 2);
+    }
+  }
+  
+  module.exports = Todo;
+```
+
+Class todo have 2 entity id and context. Id entity is used for get id from firestore and context entity is used for get string from firestore. Context is text that we add the todo list ex : 'Take a bath' etc. 
+
+Please read documentation at [GraphQL](https://graphql.org/) to make you understand to use graphQL.
+
+### Read All Todo Data 
+
+![article2](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/clean-code-2.PNG)
+
+### Read All Todo Data by Id
+
+![article3](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/clean-code-3.PNG)
+
+### Add Todo Data
+
+![article4](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/clean-code-4.PNG)
+
+### Add Delete Data
+
+![article5](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/clean-code-5.PNG)
+
+
+## Support 
+
+If you want to implement my code or want to fix or improve. Maybe if i am doing wrong in my code, i am open for discussion. I am still learning NodeJS and GraphQL.
+Also if you need help, email me at farrellmochammad@gmail
+
+
 
