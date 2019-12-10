@@ -40,7 +40,7 @@ Make sure port 4000 in your machine is open.
 
 After you run server successfully, open http://localhost:4000/graphql in your web browser and you will see : 
 
-![article1](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/clean-code-1.PNG)
+![article1](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/github-assets/clean-code-1.PNG)
 
 
 ## Important Notes
@@ -91,19 +91,19 @@ Please read documentation at [GraphQL](https://graphql.org/) to make you underst
 
 ### Read All Todo Data 
 
-![article2](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/clean-code-2.PNG)
+![article2](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/github-assets/clean-code-2.PNG)
 
 ### Read All Todo Data by Id
 
-![article3](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/clean-code-3.PNG)
+![article3](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/github-assets/clean-code-3.PNG)
 
 ### Add Todo Data
 
-![article4](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/clean-code-4.PNG)
+![article4](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/github-assets/clean-code-4.PNG)
 
 ### Add Delete Data
 
-![article5](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/clean-code-5.PNG)
+![article5](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/github-assets/clean-code-5.PNG)
 
 
 ## Support 
