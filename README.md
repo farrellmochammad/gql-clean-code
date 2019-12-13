@@ -107,6 +107,23 @@ Please read documentation at [GraphQL](https://graphql.org/) to make you underst
 
 ![article5](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/github-assets/clean-code-5.PNG)
 
+## Using Restful API
+
+GET localhost:4000/todos . To get all todos data
+
+![rest1](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/github-assets/rest-1.PNG)
+
+GET localhost:4000/todo/:id . To get todo data by Id
+
+![rest2](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/github-assets/rest-2.PNG)
+
+POST localhost:4000/todo . To add todo data
+
+![rest3](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/github-assets/rest-3.PNG)
+
+DELETE localhost:4000/todo/:id . To delete todo data by Id
+
+![rest4](https://raw.githubusercontent.com/farrellmochammad/gql-clean-code/master/github-assets/rest-4.PNG)
 
 ## Support 
 
